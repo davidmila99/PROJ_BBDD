@@ -529,6 +529,20 @@ insert into punt (punt_numero,
                                     26.3,
                                     7,
                                     1);
-                                    
+  
+/*Insert de RUTA_CAT*/
+
+insert into RUTA_CAT values (1,2);
+insert into RUTA_CAT values (1,3);
+insert into RUTA_CAT values (1,14);
+insert into RUTA_CAT values (2,2);
+insert into RUTA_CAT values (2,5);
+insert into RUTA_CAT values (3,9);
+insert into RUTA_CAT values (3,10);
+insert into RUTA_CAT values (4,11);
+insert into RUTA_CAT values (4,13);
+insert into RUTA_CAT values (5,3);
+insert into RUTA_CAT values (6,9);
+insert into RUTA_CAT values (7,13);  
                                     
 
