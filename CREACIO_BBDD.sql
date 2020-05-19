@@ -8,7 +8,7 @@ DROP TABLE Foto;
 
 /*Creacio de la taula cateogira*/
 CREATE TABLE IF NOT EXISTS `Categoria` ( 
-    `cat_id` INT(11) NOT NULL auto_increment, 
+    `cat_id` INT(11) NOT NULL, 
     `cat_nom` varchar(35) NOT NULL, 
     `cat_pare` INT(11) DEFAULT NULL,
     PRIMARY KEY (`cat_id`),
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `Categoria` (
 
 /*Cracio de la taula de les fotos*/
 CREATE TABLE IF NOT EXISTS `Foto` ( 
-    `foto_id` INT(11) NOT NULL auto_increment, 
+    `foto_id` INT(11) NOT NULL, 
     `foto_url` text NOT NULL, 
     `foto_titol` varchar(15) DEFAULT NULL,
     PRIMARY KEY (`foto_id`) 
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `Foto` (
 
 /*Creacio de la taula de les rutes*/
 CREATE TABLE IF NOT EXISTS `Ruta` ( 
-    `rut_id` INT(11) NOT NULL auto_increment, 
+    `rut_id` INT(11) NOT NULL, 
     `rut_titol` varchar(35) NOT NULL, 
     `rut_desc_markdown` text NOT NULL,
     `rut_desnivell` decimal(6,2) NOT NULL,
