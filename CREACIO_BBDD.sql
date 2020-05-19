@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `Categoria` (
 /*Cracio de la taula de les fotos*/
 CREATE TABLE IF NOT EXISTS `Foto` ( 
     `foto_id` INT(11) NOT NULL auto_increment, 
-    `foto_url` mediumtext NOT NULL, 
+    `foto_url` text NOT NULL, 
     `foto_titol` varchar(15) DEFAULT NULL,
     PRIMARY KEY (`foto_id`) 
 );
@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `Foto` (
 CREATE TABLE IF NOT EXISTS `Ruta` ( 
     `rut_id` INT(11) NOT NULL auto_increment, 
     `rut_titol` varchar(35) NOT NULL, 
-    `rut_desc_markdown` longtext NOT NULL,
+    `rut_desc_markdown` text NOT NULL,
     `rut_desnivell` decimal(6,2) NOT NULL,
     `rut_alcada_max` decimal(6,2) NOT NULL,
     `rut_alcada_min` decimal(6,2) NOT NULL,
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `Ruta` (
     `rut_tempsaprox` datetime NOT NULL,
     `rut_circular` BOOLEAN NOT NULL default false,
     `rut_dificultat` decimal(3,1) NOT NULL,
-    `rut_gpxfile` mediumtext,
+    `rut_gpxfile` text,
     `rut_foto` int(11) NOT NULL,
     PRIMARY KEY (`rut_id`),
     /*CONSTRAINT `CK_RUTTITOL_MIN3` CHECK (LENGTH(`rut_titol`) > 2),*/
@@ -47,17 +47,16 @@ CREATE TABLE IF NOT EXISTS `Ruta` (
 
 /*Creacio de la taula dels punts*/
 CREATE TABLE IF NOT EXISTS `Punt` ( 
-    `punt_id` INT(11) NOT NULL auto_increment, 
     `punt_numero` int NOT NULL, 
-    `punt_nom` varchar(35) NOT NULL,
-    `punt_desc` mediumtext NOT NULL,
+    `punt_nom` varchar(255) NOT NULL,
+    `punt_desc` text NOT NULL,
     `punt_hora` datetime NOT NULL,
     `punt_lat` decimal(6,2) NOT NULL,
     `punt_long` decimal(6,2) NOT NULL,
     `punt_elevacio` decimal(6,2) NOT NULL,
     `punt_ruta` int(11) NOT NULL,
     `punt_foto` int(11) NOT NULL,
-    PRIMARY KEY (`punt_id`),
+    PRIMARY KEY (`punt_ruta`,`punt_numero`),
     /*CONSTRAINT `CK_PUNTNUMERO_POSITIVE` CHECK (`punt_numero` > 0),*/
     /*CONSTRAINT `CK_PUNTLONG_POSITIVE` CHECK (`punt_long` > 0),*/
     CONSTRAINT `FK_PUNTFOTO_PUNT` FOREIGN KEY (`punt_foto`) REFERENCES `Foto`(`foto_id`),
