@@ -1,6 +1,5 @@
 /*Esborrem les taules */
 DROP TABLE PUNT;
-DROP TABLE RUTA_CAT;
 DROP TABLE Ruta;
 DROP TABLE Categoria;
 DROP TABLE Foto;
@@ -38,11 +37,13 @@ CREATE TABLE IF NOT EXISTS `Ruta` (
     `rut_dificultat` double NOT NULL,
     `rut_gpxfile` text,
     `rut_foto` int(11) NOT NULL,
+    `rut_cat` int(11) NOT NULL,
     PRIMARY KEY (`rut_id`),
     /*CONSTRAINT `CK_RUTTITOL_MIN3` CHECK (LENGTH(`rut_titol`) > 2),*/
     /*CONSTRAINT `CK_RUTDISTANCIA_POSITIVE` CHECK (`rut_distanciakm` > 0),*/
     /*CONSTRAINT `CK_RUTDIFICULTAT_POSITIVE` CHECK (`rut_dificultat` >= 0 and `rut_dificultat` <=10),*/
-    CONSTRAINT `FK_RUTFOTO_RUT` FOREIGN KEY (`rut_foto`) REFERENCES `Foto`(`foto_id`)
+    CONSTRAINT `FK_RUTFOTO_RUT` FOREIGN KEY (`rut_foto`) REFERENCES `Foto`(`foto_id`),
+    CONSTRAINT `FK_RUTCAT_CAT` FOREIGN KEY (`rut_cat`) REFERENCES `Categoria`(`cat_id`)
 );
 
 /*Creacio de la taula dels punts*/
@@ -64,11 +65,11 @@ CREATE TABLE IF NOT EXISTS `Punt` (
     CONSTRAINT `UNIKE_PUNTRUTANUM_PUNT` UNIQUE (`punt_ruta`,`punt_numero`)
 );
 
-/*Creacio de la taula RUTA_CAT*/
+/*Creacio de la taula RUTA_CAT
 CREATE TABLE IF NOT EXISTS `RUTA_CAT` ( 
     `rut_id` INT(11) NOT NULL, 
     `cat_id` INT(11) NOT NULL,
     PRIMARY KEY (`rut_id`,`cat_id`),
     CONSTRAINT `FK_RUTID_RUT` FOREIGN KEY (`rut_id`) REFERENCES `Ruta`(`rut_id`),
     CONSTRAINT `FK_CATID_CAT` FOREIGN KEY (`cat_id`) REFERENCES `categoria`(`cat_id`)
-);
+);*/

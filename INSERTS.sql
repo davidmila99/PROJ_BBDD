@@ -38,7 +38,8 @@ insert into Ruta values (1,'Castell Pobla','# Ruta
                                         false,
                                         6.9,
                                         null,
-                                        2);
+                                        2,
+                                        14);
 insert into Ruta values (2,'Castell Ruio','# Ruta
 
                                         Text de la ruta
@@ -56,6 +57,7 @@ insert into Ruta values (2,'Castell Ruio','# Ruta
                                         true,
                                         4.2,
                                         null,
+                                        3,
                                         3);
 insert into Ruta values (3,'Ruta igualadina','# Ruta
 
@@ -74,7 +76,8 @@ insert into Ruta values (3,'Ruta igualadina','# Ruta
                                     false,
                                     8,
                                     null,
-                                    4);
+                                    4,
+                                    7);
 insert into Ruta values (4,'Ruta vilanovenca','# Ruta
                         Text de la ruta
 
@@ -91,7 +94,8 @@ insert into Ruta values (4,'Ruta vilanovenca','# Ruta
                         true,
                         7.6,
                         null,
-                        4);
+                        4,
+                        7);
 insert into Ruta values (5,'Alto el enebrillo','# Ruta
                             Text de la ruta
 
@@ -108,7 +112,8 @@ insert into Ruta values (5,'Alto el enebrillo','# Ruta
                             true,
                             8,
                             null,
-                            2);
+                            2,
+                            4);
 insert into Ruta values (6,'Anillos','# Ruta
                                     Text de la ruta
 
@@ -125,7 +130,8 @@ insert into Ruta values (6,'Anillos','# Ruta
                                     true,
                                     10,
                                     null,
-                                    4);
+                                    4,
+                                    11);
 insert into Ruta values (7,'Santa lucia','# Ruta
                                         Text de la ruta
 
@@ -142,7 +148,8 @@ insert into Ruta values (7,'Santa lucia','# Ruta
                                         false,
                                         0,
                                         null,
-                                        4);
+                                        4,
+                                        12);
                                                                         
 /*Inserim punts*/
 insert into punt (punt_numero,
@@ -504,19 +511,6 @@ insert into punt (punt_numero,
                                     7,
                                     1);
   
-/*Insert de RUTA_CAT*/
 
-insert into RUTA_CAT values (1,2);
-insert into RUTA_CAT values (1,3);
-insert into RUTA_CAT values (1,14);
-insert into RUTA_CAT values (2,2);
-insert into RUTA_CAT values (2,5);
-insert into RUTA_CAT values (3,9);
-insert into RUTA_CAT values (3,10);
-insert into RUTA_CAT values (4,11);
-insert into RUTA_CAT values (4,13);
-insert into RUTA_CAT values (5,3);
-insert into RUTA_CAT values (6,9);
-insert into RUTA_CAT values (7,13);  
                                     
 
