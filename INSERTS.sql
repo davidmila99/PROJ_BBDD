@@ -1,18 +1,19 @@
 /*Inserts taula categoria*/
-INSERT INTO Categoria values (1,'Forta',null);
-INSERT INTO Categoria values (2,'Senderisme',null);
-INSERT INTO Categoria values (3,'Bicicleta',null);
-INSERT INTO Categoria values (4,'Fluixa',null);
-INSERT INTO Categoria values (5,'Per nens',null);
-INSERT INTO Categoria values (6,'Alt rendiment',null);
-INSERT INTO Categoria values (7,'Terrorifica',null);
-INSERT INTO Categoria values (8,'Magnifica',null);
-INSERT INTO Categoria values (9,'Muntanya',1);
-INSERT INTO Categoria values (10,'Platxa',2);
-INSERT INTO Categoria values (11,'Mixte',1);
-INSERT INTO Categoria values (12,'Serra',8);
-INSERT INTO Categoria values (13,'Urbana',10);
-INSERT INTO Categoria values (14,'Risc',5);
+INSERT INTO Categoria values (1,'Categories',null);
+INSERT INTO Categoria values (2,'Forta',1);
+INSERT INTO Categoria values (3,'Senderisme',1);
+INSERT INTO Categoria values (4,'Bicicleta',2);
+INSERT INTO Categoria values (5,'Fluixa',2);
+INSERT INTO Categoria values (6,'Per nens',2);
+INSERT INTO Categoria values (7,'Alt rendiment',1);
+INSERT INTO Categoria values (8,'Terrorifica',7);
+INSERT INTO Categoria values (9,'Magnifica',7);
+INSERT INTO Categoria values (10,'Muntanya',5);
+INSERT INTO Categoria values (11,'Platxa',2);
+INSERT INTO Categoria values (12,'Mixte',1);
+INSERT INTO Categoria values (13,'Serra',8);
+INSERT INTO Categoria values (14,'Urbana',10);
+INSERT INTO Categoria values (15,'Risc',5);
 
 /*Inserts de fotos*/
 insert into Foto values(1,'https://www.ecoticias.com/userfiles/extra/AAPM_umontana.jpg','Riu');
