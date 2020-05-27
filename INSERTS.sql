@@ -8,7 +8,7 @@ INSERT INTO Categoria values (6,'Per nens',2);
 INSERT INTO Categoria values (7,'Alt rendiment',1);
 INSERT INTO Categoria values (8,'Terrorifica',7);
 INSERT INTO Categoria values (9,'Magnifica',7);
-INSERT INTO Categoria values (10,'Muntanya',5);
+INSERT INTO Categoria values (10,'Muntanya',1);
 INSERT INTO Categoria values (11,'Platxa',2);
 INSERT INTO Categoria values (12,'Mixte',1);
 INSERT INTO Categoria values (13,'Serra',8);
@@ -23,14 +23,28 @@ insert into Foto values(4,'https://2380ie25r0n01w5tt7mvyi81-wpengine.netdna-ssl.
 insert into Foto values(5,'https://previews.123rf.com/images/photoroman/photoroman1510/photoroman151000007/46611591-playa-tropical-y-monta%C3%B1as-islas-filipinas-el-sudeste-de-asia.jpg','Mar tropical');
 
 /*Inserir Rutes*/
-insert into Ruta values (1,'Castell Pobla','# Ruta
-                                        Text de la ruta
+insert into Ruta values (1,'Castell Pobla','# Dillinger
 
-                                        # Coses interesants
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-                                        StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-                                        ',
+Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
+
+# New Features!
+
+  - Import a HTML file and watch it magically convert to Markdown
+  - Drag and drop images (requires your Dropbox account be linked)
+
+
+You can also:
+  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
+  - Drag and drop markdown and HTML files into Dillinger
+  - Export documents as Markdown, HTML and PDF',
                                         64.3,
                                         125.3,
                                         -14.3,
@@ -41,14 +55,28 @@ insert into Ruta values (1,'Castell Pobla','# Ruta
                                         null,
                                         2,
                                         14);
-insert into Ruta values (2,'Castell Ruio','# Ruta
+insert into Ruta values (2,'Castell Ruio','# Dillinger
 
-                                        Text de la ruta
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-                                        # Coses interesants
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-                                        StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
 
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
+
+# New Features!
+
+  - Import a HTML file and watch it magically convert to Markdown
+  - Drag and drop images (requires your Dropbox account be linked)
+
+
+You can also:
+  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
+  - Drag and drop markdown and HTML files into Dillinger
+  - Export documents as Markdown, HTML and PDF
                                         ',
                                         154.3,
                                         1257.3,
@@ -60,15 +88,28 @@ insert into Ruta values (2,'Castell Ruio','# Ruta
                                         null,
                                         3,
                                         3);
-insert into Ruta values (3,'Ruta igualadina','# Ruta
+insert into Ruta values (3,'Ruta igualadina','# Dillinger
 
-                                    Text de la ruta
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-                                    # Coses interesants
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-                                    StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
 
-                                    ',
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
+
+# New Features!
+
+  - Import a HTML file and watch it magically convert to Markdown
+  - Drag and drop images (requires your Dropbox account be linked)
+
+
+You can also:
+  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
+  - Drag and drop markdown and HTML files into Dillinger
+  - Export documents as Markdown, HTML and PDF',
                                     4.3,
                                     26.3,
                                     -144.3,
@@ -79,13 +120,28 @@ insert into Ruta values (3,'Ruta igualadina','# Ruta
                                     null,
                                     4,
                                     7);
-insert into Ruta values (4,'Ruta vilanovenca','# Ruta
-                        Text de la ruta
+insert into Ruta values (4,'Ruta vilanovenca','# Dillinger
 
-                        # Coses interesants
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-                        StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
+
+# New Features!
+
+  - Import a HTML file and watch it magically convert to Markdown
+  - Drag and drop images (requires your Dropbox account be linked)
+
+
+You can also:
+  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
+  - Drag and drop markdown and HTML files into Dillinger
+  - Export documents as Markdown, HTML and PDF
                         ',
                         247.6,
                         48.3,
@@ -97,14 +153,28 @@ insert into Ruta values (4,'Ruta vilanovenca','# Ruta
                         null,
                         4,
                         7);
-insert into Ruta values (5,'Alto el enebrillo','# Ruta
-                            Text de la ruta
+insert into Ruta values (5,'Alto el enebrillo','# Dillinger
 
-                            # Coses interesants
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-                            StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-                            ',
+Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
+
+# New Features!
+
+  - Import a HTML file and watch it magically convert to Markdown
+  - Drag and drop images (requires your Dropbox account be linked)
+
+
+You can also:
+  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
+  - Drag and drop markdown and HTML files into Dillinger
+  - Export documents as Markdown, HTML and PDF',
                             9.6,
                             286.3,
                             -69.3,
@@ -115,14 +185,28 @@ insert into Ruta values (5,'Alto el enebrillo','# Ruta
                             null,
                             2,
                             4);
-insert into Ruta values (6,'Anillos','# Ruta
-                                    Text de la ruta
+insert into Ruta values (6,'Anillos','# Dillinger
 
-                                    # Coses interesants
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-                                    StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-                                    ',
+Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
+
+# New Features!
+
+  - Import a HTML file and watch it magically convert to Markdown
+  - Drag and drop images (requires your Dropbox account be linked)
+
+
+You can also:
+  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
+  - Drag and drop markdown and HTML files into Dillinger
+  - Export documents as Markdown, HTML and PDF',
                                     4.3,
                                     26.3,
                                     -1.3,
@@ -133,14 +217,28 @@ insert into Ruta values (6,'Anillos','# Ruta
                                     null,
                                     4,
                                     11);
-insert into Ruta values (7,'Santa lucia','# Ruta
-                                        Text de la ruta
+insert into Ruta values (7,'Santa lucia','# Dillinger
 
-                                        # Coses interesants
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-                                        StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-                                        ',
+Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
+
+# New Features!
+
+  - Import a HTML file and watch it magically convert to Markdown
+  - Drag and drop images (requires your Dropbox account be linked)
+
+
+You can also:
+  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
+  - Drag and drop markdown and HTML files into Dillinger
+  - Export documents as Markdown, HTML and PDF',
                                         26.3,
                                         26.3,
                                         -4.3,
